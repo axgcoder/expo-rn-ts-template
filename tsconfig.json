@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }, //The default configuration in tsconfig.json is user-friendly and encourages adoption. If you prefer strict type checking and reduce the chances of runtime errors, enable strict under compilerOptions
+  "extends": "expo/tsconfig.base"
+}
